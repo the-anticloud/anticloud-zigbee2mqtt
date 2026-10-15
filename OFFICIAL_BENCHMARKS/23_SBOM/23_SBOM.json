@@ -1,0 +1,36 @@
+{
+  "schema": "anticloud.official-benchmark/1",
+  "framework": "SBOM",
+  "framework_folder": "23_SBOM",
+  "project": "ZIGBEE2MQTT",
+  "category": "CONSUMER_APPLIANCES",
+  "verdict": "PASS",
+  "source_check": "04_sbom_cyclonedx",
+  "verdict_source": "CONSUMER_APPLIANCES/ZIGBEE2MQTT/BENCH.json check 04_sbom_cyclonedx, stamped 2026-10-06T12:59:24Z",
+  "controls_mapped": [],
+  "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:e8864f36-d388-4f89-9072-4a49c80c9023",
+    "spec_version": "1.5"
+  },
+  "run_stamp": "2026-10-06T12:59:24Z",
+  "platform": "win32",
+  "python": "3.12.10",
+  "pax_model_level_provenance": "kaggle.com/code/loiskleinner/pax-benchmark-runner v3 (model-level, shared; not a project verdict)",
+  "gaps": [
+    "No anticloud.tier-bench/1 metrics file found for this project (project LOC/files metrics NOT MEASURED).",
+    "Upstream URL NOT YET MEASURED (recorded as \"None\" in anticloud/02_provenance.json).",
+    "Upstream SHA NOT YET MEASURED (no 40-hex sha in anticloud/02_provenance.json).",
+    "No aioss chain head recorded in improve reports for this project (seal may have failed or not been run)."
+  ],
+  "generated": "2026-10-06T14:01:00Z"
+}

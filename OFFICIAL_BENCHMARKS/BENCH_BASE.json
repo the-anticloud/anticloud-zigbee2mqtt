@@ -1,0 +1,733 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "ZIGBEE2MQTT",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\CONSUMER_APPLIANCES\\ZIGBEE2MQTT\\UPSTREAM_CLONE",
+    "git": {
+      "head": "344b6e03b43644c97154a72ca9eae17193c553a2",
+      "url": "https://github.com/Koenkk/zigbee2mqtt",
+      "branch": "master",
+      "committed_at": "2026-10-02T07:57:23+02:00"
+    }
+  },
+  "metrics": {
+    "files_total": 101,
+    "source_files_scanned": 47,
+    "lines_of_code": 13722,
+    "languages": {
+      ".ts": 40,
+      ".md": 11,
+      ".yaml": 10,
+      ".yml": 10,
+      ".json": 7,
+      "(none)": 6,
+      ".png": 5,
+      ".js": 4,
+      ".sh": 3,
+      ".mjs": 2,
+      ".drawio": 1,
+      ".jpg": 1,
+      ".svg": 1
+    }
+  },
+  "licence": {
+    "spdx": "GPL-3.0",
+    "class": "B",
+    "source_file": "LICENSE",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 29,
+    "unique": 29,
+    "by_ecosystem": {
+      "npm": 29
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "ajv",
+        "version": "^8.20.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bind-decorator",
+        "version": "^1.0.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "debounce",
+        "version": "^3.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fast-deep-equal",
+        "version": "^3.1.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "fflate",
+        "version": "^0.8.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "humanize-duration",
+        "version": "^3.35.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "js-yaml",
+        "version": "^5.4.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "mqtt",
+        "version": "^5.16.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "semver",
+        "version": "^7.8.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "srvx",
+        "version": "^1.0.5",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "throttleit",
+        "version": "^3.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "winston",
+        "version": "^3.19.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "winston-syslog",
+        "version": "^2.7.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "winston-transport",
+        "version": "^4.9.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "ws",
+        "version": "^8.22.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zigbee-herdsman",
+        "version": "10.10.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zigbee-herdsman-converters",
+        "version": "26.115.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zigbee2mqtt-frontend",
+        "version": "0.9.21",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "zigbee2mqtt-windfront",
+        "version": "2.15.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@biomejs/biome",
+        "version": "^2.5.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/humanize-duration",
+        "version": "^3.27.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/node",
+        "version": "^26.6.3",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/readable-stream",
+        "version": "4.0.24",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@types/ws",
+        "version": "8.18.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@vitest/coverage-v8",
+        "version": "^4.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "tmp",
+        "version": "^0.2.7",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "typescript",
+        "version": "^7.0.2",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "vitest",
+        "version": "^4.1.11",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "unix-dgram",
+        "version": "^2.0.7",
+        "source_file": "package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 18,
+    "files_with_findings": 17,
+    "severity": {
+      "high": 2,
+      "medium": 0,
+      "low": 16
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "lib/extension/homeassistant.ts",
+            "line": 1560,
+            "cwe": "CWE-95",
+            "snippet": "const lightMatch = /^light_(.*)/.exec(objectID);"
+          },
+          {
+            "severity": "high",
+            "file": "lib/util/settings.ts",
+            "line": 144,
+            "cwe": "CWE-95",
+            "snippet": "const match = /!(.*) (.*)/g.exec(text);"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 14,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "lib/mqtt.ts",
+            "line": 213,
+            "cwe": "CWE-",
+            "snippet": "// TODO: add `options.validateTopic: boolean` to bypass these checks when topic is \"controlled\""
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/bind.ts",
+            "line": 492,
+            "cwe": "CWE-",
+            "snippet": "// biome-ignore lint/style/noNonNullAssertion: TODO: biome migration: ???"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/bridge.ts",
+            "line": 339,
+            "cwe": "CWE-",
+            "snippet": "// XXX: `log` could technically be something else depending on `log_directory` setting"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/configure.ts",
+            "line": 77,
+            "cwe": "CWE-",
+            "snippet": "// TODO: this is triggering for any `data.status`, but should only for `successful`? (relies on `device.definition?` early-return?)"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/groups.ts",
+            "line": 163,
+            "cwe": "CWE-",
+            "snippet": "// biome-ignore lint/style/noNonNullAssertion: TODO: biome migration: valid from loop?"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/homeassistant.ts",
+            "line": 534,
+            "cwe": "CWE-",
+            "snippet": "// TODO (Z2M 3.0.0): Prevent starting without cache_state, instead of warning"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/networkMap.ts",
+            "line": 246,
+            "cwe": "CWE-",
+            "snippet": "// XXX: display GP/disabled devices in the map, better feedback than just hiding them?"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/onEvent.ts",
+            "line": 42,
+            "cwe": "CWE-",
+            "snippet": "// TODO: this is triggering for any `data.status`, any use outside `successful`?"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/otaUpdate.ts",
+            "line": 257,
+            "cwe": "CWE-",
+            "snippet": "// TODO: deprecated 3.0 should remove string payload, enforce object"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/publish.ts",
+            "line": 11,
+            "cwe": "CWE-",
+            "snippet": "// TODO: get rid of this, use class member"
+          },
+          {
+            "severity": "low",
+            "file": "lib/extension/receive.ts",
+            "line": 15,
+            "cwe": "CWE-",
+            "snippet": "// TODO: move all to `Map`"
+          },
+          {
+            "severity": "low",
+            "file": "lib/types/api.ts",
+            "line": 471,
+            "cwe": "CWE-",
+            "snippet": "/** XXX: currently always returns true */"
+          },
+          {
+            "severity": "low",
+            "file": "lib/types/types.d.ts",
+            "line": 82,
+            "cwe": "CWE-",
+            "snippet": "groupID: number; // XXX: should this be `?`"
+          },
+          {
+            "severity": "low",
+            "file": "lib/util/settingsMigration.ts",
+            "line": 518,
+            "cwe": "CWE-",
+            "snippet": "// hack, this does not actually affect settings, we just want to ensure the migration note triggers"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "lib/extension/frontend.ts",
+            "line": 150,
+            "cwe": "CWE-319",
+            "snippet": "const {searchParams} = new URL(request.url!, \"http://localhost\"); // dummy base, may not be absolute"
+          },
+          {
+            "severity": "low",
+            "file": "lib/util/onboarding.ts",
+            "line": 14,
+            "cwe": "CWE-319",
+            "snippet": "return new URL(process.env.Z2M_ONBOARD_URL ?? \"http://0.0.0.0:8080\");"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1,
+    "files_with_findings": 1,
+    "severity": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "lib/extension/homeassistant.ts",
+            "line": 549,
+            "cwe": "CWE-1336",
+            "snippet": "this.actionValueTemplate = this.getActionValueTemplate();"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:9ea8865c-5fec-5484-9b77-30bb0ea09571",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T15:30:38Z",
+      "component": {
+        "type": "application",
+        "name": "ZIGBEE2MQTT",
+        "version": "344b6e03b436",
+        "bom-ref": "pkg:generic/anticloud/ZIGBEE2MQTT@344b6e03b436",
+        "purl": "pkg:generic/anticloud/ZIGBEE2MQTT@344b6e03b436",
+        "licenses": [
+          {
+            "license": {
+              "id": "GPL-3.0"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "344b6e03b43644c97154a72ca9eae17193c553a2"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/Koenkk/zigbee2mqtt"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "ajv",
+        "version": "^8.20.0",
+        "purl": "pkg:npm/ajv@^8.20.0",
+        "bom-ref": "npm/ajv@^8.20.0"
+      },
+      {
+        "type": "library",
+        "name": "bind-decorator",
+        "version": "^1.0.11",
+        "purl": "pkg:npm/bind-decorator@^1.0.11",
+        "bom-ref": "npm/bind-decorator@^1.0.11"
+      },
+      {
+        "type": "library",
+        "name": "debounce",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/debounce@^3.0.0",
+        "bom-ref": "npm/debounce@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "fast-deep-equal",
+        "version": "^3.1.3",
+        "purl": "pkg:npm/fast-deep-equal@^3.1.3",
+        "bom-ref": "npm/fast-deep-equal@^3.1.3"
+      },
+      {
+        "type": "library",
+        "name": "fflate",
+        "version": "^0.8.3",
+        "purl": "pkg:npm/fflate@^0.8.3",
+        "bom-ref": "npm/fflate@^0.8.3"
+      },
+      {
+        "type": "library",
+        "name": "humanize-duration",
+        "version": "^3.35.0",
+        "purl": "pkg:npm/humanize-duration@^3.35.0",
+        "bom-ref": "npm/humanize-duration@^3.35.0"
+      },
+      {
+        "type": "library",
+        "name": "js-yaml",
+        "version": "^5.4.2",
+        "purl": "pkg:npm/js-yaml@^5.4.2",
+        "bom-ref": "npm/js-yaml@^5.4.2"
+      },
+      {
+        "type": "library",
+        "name": "mqtt",
+        "version": "^5.16.0",
+        "purl": "pkg:npm/mqtt@^5.16.0",
+        "bom-ref": "npm/mqtt@^5.16.0"
+      },
+      {
+        "type": "library",
+        "name": "semver",
+        "version": "^7.8.5",
+        "purl": "pkg:npm/semver@^7.8.5",
+        "bom-ref": "npm/semver@^7.8.5"
+      },
+      {
+        "type": "library",
+        "name": "srvx",
+        "version": "^1.0.5",
+        "purl": "pkg:npm/srvx@^1.0.5",
+        "bom-ref": "npm/srvx@^1.0.5"
+      },
+      {
+        "type": "library",
+        "name": "throttleit",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/throttleit@^3.0.0",
+        "bom-ref": "npm/throttleit@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "winston",
+        "version": "^3.19.0",
+        "purl": "pkg:npm/winston@^3.19.0",
+        "bom-ref": "npm/winston@^3.19.0"
+      },
+      {
+        "type": "library",
+        "name": "winston-syslog",
+        "version": "^2.7.1",
+        "purl": "pkg:npm/winston-syslog@^2.7.1",
+        "bom-ref": "npm/winston-syslog@^2.7.1"
+      },
+      {
+        "type": "library",
+        "name": "winston-transport",
+        "version": "^4.9.0",
+        "purl": "pkg:npm/winston-transport@^4.9.0",
+        "bom-ref": "npm/winston-transport@^4.9.0"
+      },
+      {
+        "type": "library",
+        "name": "ws",
+        "version": "^8.22.0",
+        "purl": "pkg:npm/ws@^8.22.0",
+        "bom-ref": "npm/ws@^8.22.0"
+      },
+      {
+        "type": "library",
+        "name": "zigbee-herdsman",
+        "version": "10.10.0",
+        "purl": "pkg:npm/zigbee-herdsman@10.10.0",
+        "bom-ref": "npm/zigbee-herdsman@10.10.0"
+      },
+      {
+        "type": "library",
+        "name": "zigbee-herdsman-converters",
+        "version": "26.115.1",
+        "purl": "pkg:npm/zigbee-herdsman-converters@26.115.1",
+        "bom-ref": "npm/zigbee-herdsman-converters@26.115.1"
+      },
+      {
+        "type": "library",
+        "name": "zigbee2mqtt-frontend",
+        "version": "0.9.21",
+        "purl": "pkg:npm/zigbee2mqtt-frontend@0.9.21",
+        "bom-ref": "npm/zigbee2mqtt-frontend@0.9.21"
+      },
+      {
+        "type": "library",
+        "name": "zigbee2mqtt-windfront",
+        "version": "2.15.0",
+        "purl": "pkg:npm/zigbee2mqtt-windfront@2.15.0",
+        "bom-ref": "npm/zigbee2mqtt-windfront@2.15.0"
+      },
+      {
+        "type": "library",
+        "name": "@biomejs/biome",
+        "version": "^2.5.11",
+        "purl": "pkg:npm/@biomejs/biome@^2.5.11",
+        "bom-ref": "npm/@biomejs/biome@^2.5.11"
+      },
+      {
+        "type": "library",
+        "name": "@types/humanize-duration",
+        "version": "^3.27.4",
+        "purl": "pkg:npm/@types/humanize-duration@^3.27.4",
+        "bom-ref": "npm/@types/humanize-duration@^3.27.4"
+      },
+      {
+        "type": "library",
+        "name": "@types/node",
+        "version": "^26.6.3",
+        "purl": "pkg:npm/@types/node@^26.6.3",
+        "bom-ref": "npm/@types/node@^26.6.3"
+      },
+      {
+        "type": "library",
+        "name": "@types/readable-stream",
+        "version": "4.0.24",
+        "purl": "pkg:npm/@types/readable-stream@4.0.24",
+        "bom-ref": "npm/@types/readable-stream@4.0.24"
+      },
+      {
+        "type": "library",
+        "name": "@types/ws",
+        "version": "8.18.1",
+        "purl": "pkg:npm/@types/ws@8.18.1",
+        "bom-ref": "npm/@types/ws@8.18.1"
+      },
+      {
+        "type": "library",
+        "name": "@vitest/coverage-v8",
+        "version": "^4.1.11",
+        "purl": "pkg:npm/@vitest/coverage-v8@^4.1.11",
+        "bom-ref": "npm/@vitest/coverage-v8@^4.1.11"
+      },
+      {
+        "type": "library",
+        "name": "tmp",
+        "version": "^0.2.7",
+        "purl": "pkg:npm/tmp@^0.2.7",
+        "bom-ref": "npm/tmp@^0.2.7"
+      },
+      {
+        "type": "library",
+        "name": "typescript",
+        "version": "^7.0.2",
+        "purl": "pkg:npm/typescript@^7.0.2",
+        "bom-ref": "npm/typescript@^7.0.2"
+      },
+      {
+        "type": "library",
+        "name": "vitest",
+        "version": "^4.1.11",
+        "purl": "pkg:npm/vitest@^4.1.11",
+        "bom-ref": "npm/vitest@^4.1.11"
+      },
+      {
+        "type": "library",
+        "name": "unix-dgram",
+        "version": "^2.0.7",
+        "purl": "pkg:npm/unix-dgram@^2.0.7",
+        "bom-ref": "npm/unix-dgram@^2.0.7"
+      }
+    ]
+  },
+  "elapsed_seconds": 49.56
+}
